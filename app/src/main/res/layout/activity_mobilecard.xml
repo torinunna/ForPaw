@@ -7,7 +7,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:padding="20dp">
+        android:padding="30dp">
 
         <TextView
             android:layout_width="wrap_content"
@@ -18,56 +18,67 @@
             android:text="ForPaw" />
 
         <ImageView
+            android:layout_gravity="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@mipmap/ic_launcher"/>
 
         <TextView
+            android:paddingTop="30dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="동물등록번호" />
 
         <TextView
+            android:paddingTop="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="소유자" />
 
         <TextView
+            android:paddingTop="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="연락처" />
 
         <TextView
+            android:paddingTop="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="주소" />
 
         <TextView
+            android:paddingTop="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="동물명" />
 
         <TextView
+            android:paddingTop="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="품종" />
 
         <TextView
+            android:paddingTop="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="모색" />
 
         <TextView
+            android:paddingTop="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="생년월" />
 
         <TextView
+            android:paddingTop="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="성별" />
 
         <TextView
+            android:paddingTop="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="중성화" />
@@ -75,6 +86,7 @@
 
 
         <Button
+            android:layout_marginTop="20dp"
             android:id="@+id/mCardEdtBtn"
             android:layout_gravity="center"
             android:layout_width="match_parent"
