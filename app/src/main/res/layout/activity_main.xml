@@ -92,6 +92,8 @@
             android:layout_height="wrap_content"
             android:text="기본정보 수정" />
 
+<!--        반려동물 추가할시 각각의 메인을 만들어야하는지ㅠ-->
+
 
     </LinearLayout>
 

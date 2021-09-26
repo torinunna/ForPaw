@@ -5,12 +5,13 @@
       <map>
         <entry key="app/src/main/res/layout/activity_add_friend.xml" value="0.11822916666666666" />
         <entry key="app/src/main/res/layout/activity_food.xml" value="0.11822916666666666" />
-        <entry key="app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.15208016732279286" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_mobilecard.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_mobilecard.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_register.xml" value="0.19546369902057428" />
         <entry key="app/src/main/res/layout/activity_signUp.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_vacinated.xml" value="0.11822916666666666" />
+        <entry key="app/src/main/res/layout/activity_signup.xml" value="0.19458128078817735" />
+        <entry key="app/src/main/res/layout/activity_vacinated.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_vet_clinic.xml" value="0.11822916666666666" />
       </map>
     </option>
