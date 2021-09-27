@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
 
-    <LinearLayout
+<layout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:padding="30dp">
+
 
         <TextView
             android:id="@+id/mainTxt"
@@ -40,12 +40,11 @@
             android:layout_height="wrap_content"
             android:text="회원가입" />
 
-<!--        추가를 뭘 해야하나ㅠ-->
+        <!--        추가를 뭘 해야하나ㅠ-->
 
 
 
     </LinearLayout>
-
 
 
 </layout>
