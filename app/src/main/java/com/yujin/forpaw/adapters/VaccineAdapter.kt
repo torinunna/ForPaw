@@ -8,4 +8,8 @@ class VaccineAdapter (
     val mContext : Context,
     val resId : Int,
     val mList : ArrayList<VaccineData>) : ArrayAdapter<VaccineData>(mContext, resId, mList){
+
+
+
+
 }

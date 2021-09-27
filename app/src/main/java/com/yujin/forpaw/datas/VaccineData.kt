@@ -2,7 +2,8 @@ package com.yujin.forpaw.datas
 
 class VaccineData(
     val vaccineName : String,
-    val vaccinatedDate : Int,
+    val vaccineDate : Int,
+    val nextVaccineDate : Int,
 
 
 ) {

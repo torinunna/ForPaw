@@ -12,12 +12,14 @@
         <entry key="app/src/main/res/layout/activity_register.xml" value="0.19546369902057428" />
         <entry key="app/src/main/res/layout/activity_signUp.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_signup.xml" value="0.19458128078817735" />
+        <entry key="app/src/main/res/layout/activity_vaccinate_record.xml" value="0.8736976706615358" />
         <entry key="app/src/main/res/layout/activity_vacinated.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_vet_clinic.xml" value="0.12266666666666666" />
         <entry key="app/src/main/res/layout/fragment_calender.xml" value="0.2276657060518732" />
         <entry key="app/src/main/res/layout/list_item_calendar.xml" value="0.1111111111111111" />
         <entry key="app/src/main/res/layout/practice.xml" value="0.15" />
-        <entry key="app/src/main/res/layout/vaccine_list.xml" value="0.1111111111111111" />
+        <entry key="app/src/main/res/layout/vaccine_list.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/vaccine_list_item.xml" value="0.21395348837209302" />
       </map>
     </option>
   </component>
