@@ -5,9 +5,10 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:padding="30dp">
+        android:padding="20dp">
 
             <TextView
+                android:id="@+id/titleTxt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="40dp"
@@ -20,8 +21,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@mipmap/ic_launcher"/>
-
-            <!--        카메라 접근-->
 
             <TextView
                 android:paddingTop="30dp"

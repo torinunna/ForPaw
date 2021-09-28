@@ -1,23 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout>
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:padding="15dp">
+        android:padding="20dp">
 
         <TextView
-            android:paddingTop="15dp"
+            android:paddingTop="20dp"
             android:textSize="30sp"
-            android:gravity="center"
-            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="동물병원" />
 
-        <CalendarView
-            android:paddingTop="20dp"
+        <com.archit.calendardaterangepicker.customviews.DateRangeCalendarView
+            android:id="@+id/calendar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            custom:disable_date_color="#ABABAB"
+            custom:selected_date_circle_color="@color/selected_date_circle_color" >
+        </com.archit.calendardaterangepicker.customviews.DateRangeCalendarView>
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="병원 검색" />
+
+         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:orientation="horizontal">
+
+             <EditText
+                 android:id="@+id/vetSearchEdt"
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                 android:singleLine="true"
+                 android:hint="병원 이름 입력" />
+
+             <Button
+                 android:id="@+id/vetSearchBtn"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="검색" />
+
+       </LinearLayout>
 
 
 

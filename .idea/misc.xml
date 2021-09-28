@@ -4,22 +4,24 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/layout/activity_add_friend.xml" value="0.11822916666666666" />
-        <entry key="app/src/main/res/layout/activity_edit_friend.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_edit_friend.xml" value="0.32575675561227785" />
+        <entry key="app/src/main/res/layout/activity_edit_mobilecard.xml" value="0.26875" />
         <entry key="app/src/main/res/layout/activity_food.xml" value="0.11822916666666666" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.2839506172839506" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_mobilecard.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2358278015251327" />
+        <entry key="app/src/main/res/layout/activity_mobilecard.xml" value="0.2022857142857143" />
         <entry key="app/src/main/res/layout/activity_register.xml" value="0.19546369902057428" />
         <entry key="app/src/main/res/layout/activity_signUp.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_signup.xml" value="0.19458128078817735" />
         <entry key="app/src/main/res/layout/activity_vaccinate_record.xml" value="0.8736976706615358" />
+        <entry key="app/src/main/res/layout/activity_vaccine_record.xml" value="0.1774295705281664" />
         <entry key="app/src/main/res/layout/activity_vacinated.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_vet_clinic.xml" value="0.12266666666666666" />
+        <entry key="app/src/main/res/layout/activity_vet_clinic.xml" value="0.2731244114859213" />
         <entry key="app/src/main/res/layout/fragment_calender.xml" value="0.2276657060518732" />
         <entry key="app/src/main/res/layout/list_item_calendar.xml" value="0.1111111111111111" />
         <entry key="app/src/main/res/layout/practice.xml" value="0.15" />
         <entry key="app/src/main/res/layout/vaccine_list.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/vaccine_list_item.xml" value="0.21395348837209302" />
+        <entry key="app/src/main/res/layout/vaccine_list_item.xml" value="0.2984822934232715" />
       </map>
     </option>
   </component>

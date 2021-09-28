@@ -1,14 +1,13 @@
 package com.yujin.forpaw
 
 import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
 import com.yujin.forpaw.adapters.VaccineAdapter
-import com.yujin.forpaw.databinding.ActivityVaccinateRecordBinding
+import com.yujin.forpaw.databinding.ActivityVaccineRecordBinding
 import com.yujin.forpaw.datas.VaccineData
 
 abstract class VaccineActivity : BaseActivity() {
 
-    lateinit var binding: ActivityVaccinateRecordBinding
+    lateinit var binding: ActivityVaccineRecordBinding
 
     val mVaccineList = ArrayList<VaccineData>()
 
@@ -17,7 +16,7 @@ abstract class VaccineActivity : BaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_vaccinate_record)
+        setContentView(R.layout.activity_vaccine_record)
 
         mVaccineList.add(VaccineData("종합예방접종", 21/3/16, 22/3/16))
         mVaccineList.add(VaccineData("광견병", 21/4/1, 22/4/1))
@@ -27,7 +26,7 @@ abstract class VaccineActivity : BaseActivity() {
 
 
 
-        mAdapter = VaccineAdapter(this,R.layout.activity_vaccinate_record, mVaccineList )
+        mAdapter = VaccineAdapter(this,R.layout.activity_vaccine_record, mVaccineList )
 
     }
 }
