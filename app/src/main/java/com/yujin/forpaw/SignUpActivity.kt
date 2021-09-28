@@ -2,26 +2,24 @@ package com.yujin.forpaw
 
 import android.os.Bundle
 import androidx.databinding.DataBindingUtil
-import com.yujin.forpaw.databinding.ActivityEditFriendBinding
+import com.yujin.forpaw.databinding.ActivitySignupBinding
 
-abstract class EditFriendActivity : BaseActivity() {
+abstract class SignUpActivity : BaseActivity() {
 
-    lateinit var binding: ActivityEditFriendBinding
+    lateinit var binding : ActivitySignupBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = DataBindingUtil.setContentView(this, R.layout.activity_edit_friend)
+        binding = DataBindingUtil.setContentView(this, R.layout.activity_signup)
         setupEvents()
         setValues()
     }
 
     override fun setupEvents() {
 
-        binding.OkBtn.setOnClickListener {
-
-        }
     }
 
     override fun setValues() {
+
     }
 }
