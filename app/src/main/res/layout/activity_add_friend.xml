@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="30sp"
+            android:text="반려동물 추가" />
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher" />
+
+        <EditText
+            android:paddingTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="반려동물 이름" />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="반려동물 생년월일" />
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/mCardBtn"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="모바일 동물등록증 등록하기" />
+
+        <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/OKBtn"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="확인" />
+
+
+
+
+    </LinearLayout>
+</layout>

@@ -4,7 +4,7 @@ import android.os.Bundle
 import androidx.databinding.DataBindingUtil
 import com.yujin.forpaw.databinding.ActivityMobilecardBinding
 
-abstract class MobilecardActivity : BaseActivity() {
+class MobileCardActivity : BaseActivity() {
 
     lateinit var binding : ActivityMobilecardBinding
 

@@ -12,7 +12,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:textSize="30sp"
-            android:text="동물등록증 수정" />
+            android:text="동물등록증" />
 
         <ScrollView
             android:layout_width="match_parent"

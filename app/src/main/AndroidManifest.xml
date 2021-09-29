@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ForPaw">
         <activity
+            android:name=".AddFriendActivity"
+            android:exported="true" />
+        <activity
             android:name=".LoginActivity"
             android:exported="true">
             <intent-filter>
@@ -18,6 +21,30 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FriendMainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MobileCardActivity"
+            android:exported="true" />
+        <activity
+            android:name=".EditMobileCardActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="true" />
+        <activity
+            android:name=".VaccineActivity"
+            android:exported="true" />
+        <activity
+            android:name=".VetClinicActivity"
+            android:exported="true" />
+        <activity
+            android:name=".BaseActivity"
+            android:exported="true" />
     </application>
 
 </manifest>

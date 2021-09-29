@@ -5,7 +5,7 @@ import android.os.Bundle
 import androidx.databinding.DataBindingUtil
 import com.yujin.forpaw.databinding.ActivityLoginBinding
 
-abstract class LoginActivity : BaseActivity() {
+class LoginActivity : BaseActivity() {
 
     lateinit var binding : ActivityLoginBinding
 
@@ -30,7 +30,6 @@ abstract class LoginActivity : BaseActivity() {
                 startActivity(signupIntent)
 
             }
-
 
     }
 

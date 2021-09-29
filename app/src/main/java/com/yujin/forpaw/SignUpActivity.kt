@@ -4,7 +4,7 @@ import android.os.Bundle
 import androidx.databinding.DataBindingUtil
 import com.yujin.forpaw.databinding.ActivitySignupBinding
 
-abstract class SignUpActivity : BaseActivity() {
+class SignUpActivity : BaseActivity() {
 
     lateinit var binding : ActivitySignupBinding
 

@@ -11,10 +11,10 @@
                 android:id="@+id/titleTxt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="40dp"
+                android:textSize="30sp"
                 android:padding="15dp"
                 android:layout_gravity="center"
-                android:text="ForPaw" />
+                android:text="동물등록증" />
 
             <ImageView
                 android:layout_gravity="center"
@@ -94,7 +94,7 @@
 
 
             <Button
-                android:id="@+id/returnBtn"
+                android:id="@+id/backToMainBtn"
                 android:layout_gravity="center"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

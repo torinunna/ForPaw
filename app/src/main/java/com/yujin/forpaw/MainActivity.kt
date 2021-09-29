@@ -1,5 +1,6 @@
 package com.yujin.forpaw
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.databinding.DataBindingUtil
 import com.yujin.forpaw.databinding.ActivityMainBinding
@@ -17,7 +18,11 @@ class MainActivity : BaseActivity() {
 
     override fun setupEvents() {
 
-        binding.addFriendBtn.setOnClickListener {}
+        binding.addFriendBtn.setOnClickListener {
+            val addfriendIntent = Intent(mContext, AddFriendActivity::class.java)
+            startActivity(addfriendIntent)
+
+        }
     }
 
     override fun setValues() {

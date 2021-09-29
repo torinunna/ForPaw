@@ -5,7 +5,7 @@ import com.yujin.forpaw.adapters.VaccineAdapter
 import com.yujin.forpaw.databinding.ActivityVaccineRecordBinding
 import com.yujin.forpaw.datas.VaccineData
 
-abstract class VaccineActivity : BaseActivity() {
+class VaccineActivity : BaseActivity() {
 
     lateinit var binding: ActivityVaccineRecordBinding
 
@@ -24,9 +24,14 @@ abstract class VaccineActivity : BaseActivity() {
         mVaccineList.add(VaccineData("켄넬코프", 21/4/1, 22/4/1))
         mVaccineList.add(VaccineData("인플루엔자", 21/4/1, 22/4/1))
 
-
-
         mAdapter = VaccineAdapter(this,R.layout.activity_vaccine_record, mVaccineList )
 
+    }
+
+    override fun setupEvents() {
+
+    }
+
+    override fun setValues() {
     }
 }
