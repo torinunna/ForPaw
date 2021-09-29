@@ -21,10 +21,22 @@ class FriendMainActivity : BaseActivity() {
         binding.backToMainBtn.setOnClickListener {
 
             val backtomainIntent = Intent(mContext, MainActivity::class.java)
+        }
+
+        binding.mCardBtn.setOnClickListener {
+
+            val mcardIntent = Intent(mContext, MobileCardActivity::class.java)
+        }
+
+        binding.vaccineBtn.setOnClickListener {
+            val vaccineIntent = Intent(mContext,VaccineActivity::class.java)
 
         }
-    }
 
+        binding.vetClinicBtn.setOnClickListener {
+            val vetclinicIntent = Intent(mContext, VetClinicActivity::class.java)
+        }
+    }
 
 
     override fun setValues() {

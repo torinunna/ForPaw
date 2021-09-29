@@ -14,26 +14,28 @@
             android:text="반려동물 추가" />
 
         <ImageView
-            android:layout_marginTop="20dp"
+            android:id="@+id/profilePicImg"
+            android:layout_marginTop="30dp"
             android:layout_gravity="center"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@mipmap/ic_launcher" />
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:src="@drawable/profile_default" />
 
         <EditText
-            android:paddingTop="30dp"
+            android:layout_marginTop="30dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="반려동물 이름" />
 
 
         <EditText
+            android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="반려동물 생년월일" />
 
         <Button
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="30dp"
             android:id="@+id/mCardBtn"
             android:layout_gravity="center"
             android:layout_width="match_parent"
@@ -47,8 +49,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="확인" />
-
-
 
 
     </LinearLayout>
