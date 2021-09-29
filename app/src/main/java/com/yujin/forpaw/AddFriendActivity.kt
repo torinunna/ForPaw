@@ -19,14 +19,10 @@ class AddFriendActivity : BaseActivity() {
 
     override fun setupEvents() {
 
-        binding.mCardBtn.setOnClickListener{
-
-            val mcardIntent = Intent(mContext, EditMobileCardActivity::class.java)
-        }
-
         binding.OKBtn.setOnClickListener{
 
             val okIntent = Intent(mContext, MainActivity::class.java)
+            startActivity(okIntent)
         }
 
     }
