@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ForPaw">
         <activity
+            android:name=".datas.FriendData"
+            android:exported="true" />
+        <activity
             android:name=".AddFriendActivity"
             android:exported="true" />
         <activity
