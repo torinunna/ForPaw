@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/font/app_font.xml" value="0.25555555555555554" />
+        <entry key="app/src/main/res/font/custom_font_family.xml" value="0.25555555555555554" />
         <entry key="app/src/main/res/font/custon_font_family.xml" value="0.25555555555555554" />
         <entry key="app/src/main/res/layout/activity_add_check_up.xml" value="0.2546875" />
         <entry key="app/src/main/res/layout/activity_add_friend.xml" value="0.2689584627151223" />
