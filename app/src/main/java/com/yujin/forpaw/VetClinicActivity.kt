@@ -24,14 +24,6 @@ class VetClinicActivity : BaseActivity() {
 
     override fun setupEvents() {
 
-
-        binding.vetSearchBtn.setOnClickListener {
-
-            val inputVetname = binding.vetSearchEdt.text.toString()
-
-        }
-
-
     }
 
     override fun setValues() {
