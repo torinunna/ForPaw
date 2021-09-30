@@ -5,7 +5,7 @@
       <map>
         <entry key="app/src/main/res/layout/activity_add_check_up.xml" value="0.2546875" />
         <entry key="app/src/main/res/layout/activity_add_friend.xml" value="0.1004470682460357" />
-        <entry key="app/src/main/res/layout/activity_check_up.xml" value="0.26875" />
+        <entry key="app/src/main/res/layout/activity_check_up.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_edit_friend.xml" value="0.26875" />
         <entry key="app/src/main/res/layout/activity_edit_mobilecard.xml" value="0.26875" />
         <entry key="app/src/main/res/layout/activity_food.xml" value="0.11822916666666666" />
@@ -21,6 +21,8 @@
         <entry key="app/src/main/res/layout/activity_vaccine_record.xml" value="0.1774295705281664" />
         <entry key="app/src/main/res/layout/activity_vacinated.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_vet_clinic.xml" value="0.2731244114859213" />
+        <entry key="app/src/main/res/layout/checkup_item_view.xml" value="0.26875" />
+        <entry key="app/src/main/res/layout/checkup_list_item.xml" value="0.26875" />
         <entry key="app/src/main/res/layout/fragment_calender.xml" value="0.2276657060518732" />
         <entry key="app/src/main/res/layout/friend_list_item.xml" value="0.26875" />
         <entry key="app/src/main/res/layout/list_item_calendar.xml" value="0.1111111111111111" />
