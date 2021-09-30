@@ -96,8 +96,6 @@
             android:layout_height="wrap_content"
             android:text="반려동물 목록" />
 
-
-
     </LinearLayout>
 
 

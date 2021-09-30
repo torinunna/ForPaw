@@ -3,12 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/layout/activity_add_check_up.xml" value="0.2546875" />
         <entry key="app/src/main/res/layout/activity_add_friend.xml" value="0.1004470682460357" />
+        <entry key="app/src/main/res/layout/activity_check_up.xml" value="0.26875" />
         <entry key="app/src/main/res/layout/activity_edit_friend.xml" value="0.26875" />
         <entry key="app/src/main/res/layout/activity_edit_mobilecard.xml" value="0.26875" />
         <entry key="app/src/main/res/layout/activity_food.xml" value="0.11822916666666666" />
         <entry key="app/src/main/res/layout/activity_friend_data.xml" value="0.2546875" />
-        <entry key="app/src/main/res/layout/activity_friend_main.xml" value="0.10031517329389517" />
+        <entry key="app/src/main/res/layout/activity_friend_main.xml" value="0.3189834899879585" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.2839506172839506" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.29169397912036327" />
         <entry key="app/src/main/res/layout/activity_mobilecard.xml" value="0.335" />

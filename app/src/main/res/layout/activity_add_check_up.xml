@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        tools:context=".AddCheckUpActivity">
+
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="제목" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="검진일" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:hint="내용을 입력해주세요" />
+
+        <Button
+            android:id="@+id/receiptBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="영수증 업로드" />
+
+        <Button
+            android:id="@+id/OKBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="추가하기" />
+
+        <Button
+            android:id="@+id/cancelBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="취소하기" />
+
+    </LinearLayout>
+</layout>

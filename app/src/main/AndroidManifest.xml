@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ForPaw">
         <activity
+            android:name=".AddCheckUpActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CheckUpActivity"
+            android:exported="true" />
+        <activity
             android:name=".datas.FriendData"
             android:exported="true" />
         <activity
