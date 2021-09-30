@@ -11,6 +11,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:textSize="30sp"
+            android:fontFamily="@font/samlip_hopang_che_outline"
             android:text="반려동물 추가" />
 
         <ImageView

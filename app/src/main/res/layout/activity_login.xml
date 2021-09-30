@@ -12,14 +12,16 @@
 
         <TextView
             android:id="@+id/mainTxt"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/samlip_hopang_che_outline"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="40dp"
             android:layout_gravity="center"
-            android:text="ForPaw" />
+            android:text="ForPaw." />
 
         <TextView
-            android:paddingTop="100dp"
+            android:paddingTop="90dp"
             android:textSize="20sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

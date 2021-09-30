@@ -16,6 +16,7 @@
             android:textSize="30sp"
             android:padding="15dp"
             android:layout_gravity="center"
+            android:fontFamily="@font/samlip_hopang_che_outline"
             android:text="건강검진" />
 
         <androidx.recyclerview.widget.RecyclerView

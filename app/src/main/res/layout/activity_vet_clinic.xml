@@ -8,15 +8,17 @@
         android:padding="20dp">
 
         <TextView
-            android:paddingTop="20dp"
+            android:paddingTop="10dp"
             android:textSize="30sp"
             android:layout_gravity="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/samlip_hopang_che_outline"
             android:text="동물병원" />
 
         <com.archit.calendardaterangepicker.customviews.DateRangeCalendarView
             android:id="@+id/calendar"
+            android:paddingTop="30dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             custom:disable_date_color="#ABABAB"

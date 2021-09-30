@@ -15,8 +15,9 @@
             android:layout_height="wrap_content"
             android:textSize="40sp"
             android:padding="15dp"
+            android:fontFamily="@font/samlip_hopang_che_outline"
             android:layout_gravity="center"
-            android:text="ForPaw" />
+            android:text="ForPaw." />
 
 
         <EditText

@@ -8,15 +8,16 @@
         android:padding="20dp">
 
             <TextView
+                android:fontFamily="@font/samlip_hopang_che_outline"
                 android:id="@+id/titleTxt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="30sp"
-                android:padding="15dp"
                 android:layout_gravity="center"
                 android:text="동물등록증" />
 
             <ImageView
+                android:layout_marginTop="20dp"
                 android:layout_gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
