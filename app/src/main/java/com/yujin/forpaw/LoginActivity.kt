@@ -19,17 +19,27 @@ class LoginActivity : BaseActivity() {
     override fun setupEvents() {
 
         binding.signInBtn.setOnClickListener {
-            val signinIntent = Intent(mContext, MainActivity::class.java)
-            startActivity(signinIntent)
+            val signInIntent = Intent(mContext, MainActivity::class.java)
+            startActivity(signInIntent)
 
         }
 
+        binding.signUpBtn.setOnClickListener {
+            val signUpIntent = Intent(mContext, SignUpActivity::class.java )
+            startActivity(signUpIntent)
+        }
 
-            binding.signUpBtn.setOnClickListener {
-                val signupIntent = Intent(mContext, SignUpActivity::class.java )
-                startActivity(signupIntent)
+        binding.findIdBtn.setOnClickListener {
+            val findIdIntent = Intent(mContext, FindIdActivity::class.java)
+            startActivity(findIdIntent)
+        }
 
-            }
+        binding.findPwdBtn.setOnClickListener {
+            val findPwdIntent = Intent(mContext, FindPwdActivity::class.java)
+            startActivity(findPwdIntent)
+        }
+
+
 
     }
 
