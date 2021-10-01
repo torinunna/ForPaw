@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
@@ -42,8 +42,9 @@
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:singleLine="true"
-                    android:hint="동물등록번호 입력" />
+                    android:hint="동물등록번호 입력"
+                    android:minHeight="48dp"
+                    android:singleLine="true" />
 
                 <TextView
                     android:paddingTop="10dp"
@@ -54,8 +55,9 @@
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:singleLine="true"
-                    android:hint="소유자 입력" />
+                    android:hint="소유자 입력"
+                    android:minHeight="48dp"
+                    android:singleLine="true" />
 
 
                 <TextView
@@ -67,8 +69,9 @@
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:singleLine="true"
-                    android:hint="연락처 입력" />
+                    android:hint="연락처 입력"
+                    android:minHeight="48dp"
+                    android:singleLine="true" />
 
 
                 <TextView
@@ -80,8 +83,9 @@
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:singleLine="true"
-                    android:hint="주소 입력" />
+                    android:hint="주소 입력"
+                    android:minHeight="48dp"
+                    android:singleLine="true" />
 
 
                 <TextView
@@ -93,8 +97,9 @@
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:singleLine="true"
-                    android:hint="동물명 입력" />
+                    android:hint="동물명 입력"
+                    android:minHeight="48dp"
+                    android:singleLine="true" />
 
 
                 <TextView
