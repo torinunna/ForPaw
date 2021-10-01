@@ -32,7 +32,9 @@
             android:textSize="20sp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="아이디를 입력하세요." />
+            android:singleLine="true"
+            android:hint="아이디를 입력하세요."
+            android:imeOptions="actionNext"/>
 
         <TextView
             android:paddingTop="20dp"
@@ -46,6 +48,8 @@
             android:textSize="20sp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:imeOptions="actionGo"
             android:hint="비밀번호를 입력하세요." />
 
         <CheckBox
