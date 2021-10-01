@@ -19,6 +19,8 @@ class EditMobileCardActivity : BaseActivity(){
 
     override fun setValues() {
 
+
+
     }
 
     override fun setupEvents() {

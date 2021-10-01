@@ -40,8 +40,6 @@ class MainActivity : BaseActivity() {
             val friendMainIntent = Intent(mContext, FriendMainActivity::class.java)
             startActivity((friendMainIntent))
         }
-
-
     }
 
 

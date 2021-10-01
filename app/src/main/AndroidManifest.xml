@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ForPaw">
         <activity
+            android:name=".CustomActionBarActivity"
+            android:exported="true" />
+        <activity
             android:name=".FindPwdActivity"
             android:exported="true" />
         <activity

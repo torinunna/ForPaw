@@ -1,18 +1,16 @@
 package com.yujin.forpaw
 
-import android.app.DatePickerDialog
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.databinding.DataBindingUtil
-import com.yujin.forpaw.databinding.ActivityAddCheckUpBinding
+import com.yujin.forpaw.databinding.ActivityCustomActionBarBinding
 
-class AddCheckUpActivity : BaseActivity() {
+class CustomActionBarActivity : BaseActivity() {
 
-    lateinit var binding : ActivityAddCheckUpBinding
+    lateinit var binding : ActivityCustomActionBarBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = DataBindingUtil.setContentView(this,R.layout.activity_add_check_up)
+        setContentView(R.layout.activity_custom_action_bar)
         setupEvents()
         setValues()
     }
@@ -22,5 +20,6 @@ class AddCheckUpActivity : BaseActivity() {
     }
 
     override fun setValues() {
+
     }
 }
