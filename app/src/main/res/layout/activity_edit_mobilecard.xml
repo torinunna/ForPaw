@@ -153,19 +153,44 @@
                     android:singleLine="true"
                     android:hint="성별 입력" />
 
-
-                <TextView
-                    android:paddingTop="10dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="중성화여부" />
-
-                <EditText
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:singleLine="true"
-                    android:layout_marginBottom="10dp"
-                    android:hint="중성화여부 입력" />
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:paddingTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="중성화여부" />
+
+                    <RadioGroup
+                        android:paddingLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/radio_neutral"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="중성"
+                            android:onClick="onRadioButtonClicked"/>
+
+                        <RadioButton
+                            android:id="@+id/radio_unneutral"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="미중성"
+                            android:onClick="onRadioButtonClicked"/>
+
+                    </RadioGroup>
+
+
+
+
+                </LinearLayout>
+
 
             </LinearLayout>
 

@@ -39,20 +39,19 @@ class MainActivity : BaseActivity() {
 
             val friendMainIntent = Intent(mContext, FriendMainActivity::class.java)
             startActivity((friendMainIntent))
+
+
         }
+
+
     }
 
 
     override fun setupEvents() {
 
-
         binding.addFriendBtn.setOnClickListener {
             val addfriendIntent = Intent(mContext, AddFriendActivity::class.java)
             startActivity(addfriendIntent) }
-
-
-
-
 
 
     }

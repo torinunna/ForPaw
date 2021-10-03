@@ -63,6 +63,8 @@
         <activity
             android:name=".BaseActivity"
             android:exported="true" />
+
     </application>
+
 
 </manifest>
