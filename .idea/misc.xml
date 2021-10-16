@@ -6,6 +6,8 @@
         <entry key="app/src/main/res/font/app_font.xml" value="0.25555555555555554" />
         <entry key="app/src/main/res/font/custom_font_family.xml" value="0.25555555555555554" />
         <entry key="app/src/main/res/font/custon_font_family.xml" value="0.25555555555555554" />
+        <entry key="app/src/main/res/layout/activity_add_booking.xml" value="0.30283671214300306" />
+        <entry key="app/src/main/res/layout/activity_add_booking2.xml" value="0.13020833333333334" />
         <entry key="app/src/main/res/layout/activity_add_check_up.xml" value="0.2546875" />
         <entry key="app/src/main/res/layout/activity_add_friend.xml" value="0.2689584627151223" />
         <entry key="app/src/main/res/layout/activity_check_up.xml" value="0.3586368908904133" />
@@ -27,7 +29,7 @@
         <entry key="app/src/main/res/layout/activity_vaccine_record.xml" value="0.5954622746422382" />
         <entry key="app/src/main/res/layout/activity_vacinated.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_vet_clinic.xml" value="0.2731244114859213" />
-        <entry key="app/src/main/res/layout/checkup_item_view.xml" value="0.453125" />
+        <entry key="app/src/main/res/layout/checkup_item_view.xml" value="0.3920704845814978" />
         <entry key="app/src/main/res/layout/checkup_list_item.xml" value="0.26875" />
         <entry key="app/src/main/res/layout/fragment_calender.xml" value="0.2276657060518732" />
         <entry key="app/src/main/res/layout/friend_list_item.xml" value="0.26875" />

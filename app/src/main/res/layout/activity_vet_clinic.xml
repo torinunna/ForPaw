@@ -16,15 +16,13 @@
             android:fontFamily="@font/samlip_hopang_che_outline"
             android:text="동물병원" />
 
-        <com.archit.calendardaterangepicker.customviews.DateRangeCalendarView
-            android:id="@+id/calendar"
-            android:paddingTop="30dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            custom:disable_date_color="#ABABAB"
-            custom:selected_date_circle_color="@color/selected_date_circle_color" >
-        </com.archit.calendardaterangepicker.customviews.DateRangeCalendarView>
-
+      <Button
+          android:id="@+id/addBookingBtn"
+          android:layout_marginTop="15dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="right"
+          android:text="일정 추가" />
 
 
     </LinearLayout>

@@ -1,5 +1,6 @@
 package com.yujin.forpaw
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.databinding.DataBindingUtil
 import com.applandeo.materialcalendarview.EventDay
@@ -23,6 +24,12 @@ class VetClinicActivity : BaseActivity() {
 
 
     override fun setupEvents() {
+
+        binding.addBookingBtn.setOnClickListener {
+
+            val addBookingIntent = Intent(mContext, AddBookingActivity::class.java)
+            startActivity(addBookingIntent)
+        }
 
     }
 

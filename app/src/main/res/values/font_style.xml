@@ -16,6 +16,7 @@
 
     <style name="customRadioButtonFontStyle" parent="@android:style/Widget.DeviceDefault.CompoundButton.RadioButton">
         <item name="android:fontFamily">@font/samlip_hopang_che_r</item>
+        <item name="android:textColor"></item>
     </style>
 
     <style name="customCheckboxFontStyle" parent="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox">
