@@ -21,7 +21,6 @@ class CheckUpActivity : BaseActivity() {
     override fun setupEvents() {
 
         binding.addBtn.setOnClickListener {
-
            val addIntent = Intent(mContext, AddCheckUpActivity::class.java)
             startActivity(addIntent)
         }

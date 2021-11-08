@@ -10,8 +10,6 @@ abstract class BaseActivity : AppCompatActivity() {
 
     lateinit var mContext: Context
 
-
-
     override fun onCreate(savedInstanceState: Bundle?) {
 
         super.onCreate(savedInstanceState)
