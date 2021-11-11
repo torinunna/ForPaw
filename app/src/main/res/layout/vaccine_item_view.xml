@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#E6E6E6"
+            android:layout_margin="5dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:background="#EEEEFA"
+                android:textColor="#666666"
+                android:text="광견병"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:background="#EEEEFA"
+                android:textColor="#666666"
+                android:text="종합예방접종"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:background="#EEEEFA"
+                android:textColor="#666666"
+                android:text="켄넬코프"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:background="#EEEEFA"
+                android:textColor="#666666"
+                android:text="코로나 장염"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:background="#EEEEFA"
+                android:textColor="#666666"
+                android:text="인플루엔자"/>
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+</layout>

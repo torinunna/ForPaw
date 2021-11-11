@@ -28,16 +28,18 @@
         <entry key="app/src/main/res/layout/activity_signUp.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_signup.xml" value="0.32645100178283293" />
         <entry key="app/src/main/res/layout/activity_vaccinate_record.xml" value="0.8736976706615358" />
-        <entry key="app/src/main/res/layout/activity_vaccine_record.xml" value="0.5954622746422382" />
+        <entry key="app/src/main/res/layout/activity_vaccine.xml" value="0.28525641025641024" />
+        <entry key="app/src/main/res/layout/activity_vaccine_record.xml" value="0.2903752039151713" />
         <entry key="app/src/main/res/layout/activity_vacinated.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_vet_clinic.xml" value="0.2731244114859213" />
         <entry key="app/src/main/res/layout/checkup_item_view.xml" value="0.18503118503118504" />
         <entry key="app/src/main/res/layout/checkup_list_item.xml" value="0.26875" />
         <entry key="app/src/main/res/layout/fragment_calender.xml" value="0.2276657060518732" />
-        <entry key="app/src/main/res/layout/friend_item_view.xml" value="0.13020833333333334" />
+        <entry key="app/src/main/res/layout/friend_item_view.xml" value="0.10158930902273393" />
         <entry key="app/src/main/res/layout/friend_list_item.xml" value="0.26875" />
         <entry key="app/src/main/res/layout/list_item_calendar.xml" value="0.1111111111111111" />
         <entry key="app/src/main/res/layout/practice.xml" value="0.15" />
+        <entry key="app/src/main/res/layout/vaccine_item_view.xml" value="0.44389027431421446" />
         <entry key="app/src/main/res/layout/vaccine_list.xml" value="0.1" />
         <entry key="app/src/main/res/layout/vaccine_list_item.xml" value="0.2984822934232715" />
       </map>

@@ -28,12 +28,6 @@ class FriendMainActivity : BaseActivity() {
             startActivity(mCardIntent)
         }
 
-        binding.vaccineBtn.setOnClickListener {
-            val vaccineIntent = Intent(mContext,VaccineActivity::class.java)
-            startActivity(vaccineIntent)
-
-        }
-
         binding.vetClinicBtn.setOnClickListener {
             val vetClinicIntent = Intent(mContext, VetClinicActivity::class.java)
             startActivity(vetClinicIntent)

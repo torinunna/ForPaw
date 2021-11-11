@@ -6,14 +6,6 @@
         android:orientation="vertical"
         android:padding="20dp">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:textSize="30sp"
-            android:fontFamily="@font/samlip_hopang_che_outline"
-            android:text="접종 내역" />
-
         <LinearLayout
             android:padding="30dp"
             android:layout_width="match_parent"
@@ -44,6 +36,7 @@
 
 
         </LinearLayout>
+
 
 
     </LinearLayout>

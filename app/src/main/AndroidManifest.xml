@@ -10,10 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ForPaw">
         <activity
-            android:name=".AddBookingActivity"
+            android:name=".VaccineActivity"
             android:exported="true" />
         <activity
-            android:name=".CustomActionBarActivity"
+            android:name=".AddBookingActivity"
             android:exported="true" />
         <activity
             android:name=".FindPwdActivity"
@@ -26,9 +26,6 @@
             android:exported="true" />
         <activity
             android:name=".CheckUpActivity"
-            android:exported="true" />
-        <activity
-            android:name=".datas.FriendData"
             android:exported="true" />
         <activity
             android:name=".AddFriendActivity"
@@ -56,9 +53,6 @@
             android:exported="true" />
         <activity
             android:name=".SignUpActivity"
-            android:exported="true" />
-        <activity
-            android:name=".VaccineActivity"
             android:exported="true" />
         <activity
             android:name=".VetClinicActivity"
